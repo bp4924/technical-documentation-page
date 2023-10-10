@@ -36,6 +36,10 @@ nav ul li a {
   color: black;
 }
 
+code {
+  background-color: aliceblue;
+}
+
 #main-doc {
   margin-left: 250px;
 }
