@@ -4,6 +4,7 @@
 
 html {
   background-color: bisque;
+  overflow: hidden;
 }
 
 #navbar {
@@ -12,6 +13,12 @@ html {
   top: 0;
   left: 0;
   height: 100%;
+}
+
+.navbar-header {
+  font-size: large;
+  font-weight: bold;
+  margin: 15px 40px;
 }
 
 nav ul {
@@ -36,8 +43,20 @@ nav ul li a {
   color: black;
 }
 
-code {
+.code-element {
   background-color: aliceblue;
+  border: 1px solid navy;
+  padding: 0 3px;
+}
+
+.primary-rule {
+  text-decoration: dotted;
+  font-weight: bold;
+}
+
+.elimination-rule {
+  list-style-type: disc;
+  font-weight: normal;
 }
 
 #main-doc {

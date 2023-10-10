@@ -8,13 +8,13 @@
   </head>
   <body>
     <nav id="navbar">
-      <header>Navbar</header>
+      <header class="navbar-header">Navbar</header>
       <ul>
         <li>
-          <a href="#Item_1" class="nav-link">Item 1</a>
+          <a href="#Code_Elements" class="nav-link">Code Elements</a>
         </li>
         <li>
-          <a href="#Item_2" class="nav-link">Item 2</a>
+          <a href="#FizzBuzz" class="nav-link">FizzBuzz</a>
         </li>
         <li>
           <a href="#Item_3" class="nav-link">Item 3</a>
@@ -31,9 +31,9 @@
       <!-- add 5 code elements -->
       <!-- add 5 li elements -->
 
-      <section class="main-section" id="Item_1">
+      <section class="main-section" id="Code_Elements">
         <header>
-          <h1>Item 1</h1>
+          <h1>Code Elements</h1>
         </header>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt
@@ -42,31 +42,68 @@
           saepe non culpa.
         </p>
         <p>include 10 p elements, 5 code elements, 5 li items</p>
-
-        <h3>FizzBuzz solution</h3>
-        <code>
-          const fizzBuzz = 45; for (let i = 1; i <= fizzBuzz; i++) { if (i % 5
-          === 0 && i % 3 === 0) { console.log(i + " FizzBuzz"); } else if (i % 5
-          === 0) { console.log(i + " buzz"); } else if (i % 3 === 0 ?
-          console.log(i + " fizz") : console.log(i)); }</code
-        >
-        <p>This is an example of <code>inline code</code> within a sentence.</p>
+        <p>
+          This is an example of
+          <code class="code-element">inline code</code> within a sentence.
+        </p>
       </section>
       <section class="main-section" id="Item_2">
         <header>
-          <h1>Item 2</h1>
+          <h1>FizzBuzz</h1>
         </header>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex
-          similique, omnis in quae aperiam vel maxime magni sunt est qui quaerat
-          quia, deserunt tempore quos maiores eaque blanditiis ut neque?
+          The following JavaScript code will recreate the party game FizzBuzz.
         </p>
+        <p>Rules of FizzBuzz:</p>
+        <ol>
+          <li class="primary-rule">Participants sit in a circle.</li>
+          <li class="primary-rule">
+            The game begins with one person saying "one."
+          </li>
+          <li class="primary-rule">
+            The next person in the circle says the next number in sequence, but
+            with the following rules:
+            <ul>
+              <li class="elimination-rule">
+                If the number is divisible by three, they say "Fizz"
+              </li>
+              <li class="elimination-rule">
+                If the number is divisible by five, they say "Buzz"
+              </li>
+              <li class="elimination-rule">
+                If the number is divisible by three, they say "FizzBuzz"
+              </li>
+              <li class="elimination-rule">Otherwise, they say the number</li>
+            </ul>
+          </li>
+          <li class="primary-rule">
+            If a participant makes a mistake, they are out of the came.
+          </li>
+          <li class="primary-rule">
+            The game continues until only one person is left. That person is
+            declared the <span class="winner">winner!!</span>
+          </li>
+        </ol>
+        <h3>FizzBuzz solution</h3>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste
-          doloribus beatae ipsam sed, repudiandae voluptates natus dolore
-          exercitationem voluptatum, laudantium alias facilis asperiores
-          corporis id qui ducimus sint vel laborum?
+          FizzBuzz is often used as a programming exercise to practice
+          conditional elements and loops.
         </p>
+        <p>Solution using JavaScript:</p>
+        <article class="code-element">
+          <pre>
+          <code>
+            const fizzBuzz = 45; <br />
+            for (let i = 1; i = fizzBuzz; i++) { 
+              if (i % 5 === 0 && i % 3 === 0) {
+              console.log(i + " FizzBuzz"); 
+              } else if (i % 5 === 0) { 
+                console.log(i + " buzz"); 
+              } else if (i % 3 === 0 ? console.log(i + " fizz") : console.log(i));
+            }
+          </code>
+        </pre>
+        </article>
       </section>
 
       <section class="main-section" id="#Item_3">
