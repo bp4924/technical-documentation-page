@@ -59,6 +59,12 @@ nav ul li a {
   font-weight: normal;
 }
 
+.winner {
+  font-size: larger;
+  font-style: italic;
+  color: brown;
+}
+
 #main-doc {
   margin-left: 250px;
 }
