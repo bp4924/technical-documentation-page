@@ -43,6 +43,16 @@ nav ul li a {
   color: black;
 }
 
+.main-title {
+  color: red;
+}
+
+.ext-link {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
 .code-element {
   background-color: aliceblue;
   border: 1px solid navy;
