@@ -23,7 +23,7 @@
           <a href="#AI_Prompting" class="nav-link">AI Prompting</a>
         </li>
         <li>
-          <a href="#Item_5" class="nav-link">Item 5</a>
+          <a href="#Recursion" class="nav-link">Recursion</a>
         </li>
       </ul>
     </nav>
@@ -32,10 +32,10 @@
       <!-- add 5 li elements -->
       <h1 class="main-title">Random Coding Thoughts.</h1>
       <p>
-        The criteria requires, amoung other things, 10 p elements, 5 code
-        elements, and 5 li items. A complete list of the requirements is listed
-        in the
-        <a class="ext-link" target="_blank" href="./README.md">README</a>
+        The criteria for this exercise requires, among other things, 10 p
+        elements, 5 code elements, and 5 li items. A complete list of the
+        requirements is listed in the
+        <a class="ext-link" target="_blank" href="./README.md">README.</a>
       </p>
 
       <section class="main-section" id="Code_Elements">
@@ -49,7 +49,7 @@
           saepe non culpa.
         </p>
         <p>
-          This is an example of
+          Here is an example of
           <code class="code-element">inline code</code> within a sentence.
         </p>
       </section>
@@ -57,9 +57,7 @@
         <header>
           <h1>FizzBuzz</h1>
         </header>
-        <p>
-          The following JavaScript code will recreate the party game FizzBuzz.
-        </p>
+        <p>This JavaScript code will recreate the party game FizzBuzz.</p>
         <p>Rules of FizzBuzz:</p>
         <ol>
           <li class="primary-rule">Participants sit in a circle.</li>
@@ -148,16 +146,33 @@
           laboriosam quas.
         </p>
       </section>
-      <section class="main-section" id="Item_5">
+      <section class="main-section" id="Recursion">
         <header>
-          <h1>Item 5</h1>
+          <h1>Recursion</h1>
         </header>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis
-          vel quae qui voluptatum repudiandae delectus enim ea ipsum, placeat
-          inventore similique, dolore repellat quam commodi minus molestias
-          expedita saepe nesciunt?
+          Recursion is a programming technique in which a function calls itself
+          to solve a problem. Here's a classic example of recursion in Python:
+          calculating the factorial of a number.
         </p>
+        <article class="code-element">
+          <pre>
+            <code>
+    def factorial(n): 
+      # Base case: If n is 0 or 1, the factorial is 1.
+      if n == 0 or n == 1:
+      return 1
+      # Recursive case: Calculate factorial using the recursive formula.
+    else:
+      return n * factorial(n - 1)
+
+    # Test the factorial function
+    number = 5
+    result = factorial(number)
+    print(f"The factorial of {number} is {result}")
+            </code>
+          </pre>
+        </article>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
           nobis nesciunt velit minus, ducimus officia ullam soluta, inventore
